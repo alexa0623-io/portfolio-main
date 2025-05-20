@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra</title>
+    <link rel="stylesheet" href="/assets/css/output.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> 
+</head>
+<body class="bg-[07080A]">
+    <div class="">
+        <!-- Navbar -->
+        <nav id="navbar" class="roboto fixed w-full z-10">
+            <!-- Desktop View -->
+            <div class="hidden md:block w-full h-full md:px-16 lg:px-32 xl:px-50 bg-transparent z-50 backdrop-blur-md">
+                <div class="w-full flex justify-between items-center py-4">
+                    <div class="poppins w-full flex text-[18px] md:text-[18px] lg:text-[22px] 2xl:text-2xl text-[#E95927] tracking-[1px]">
+                       <p class="font-extralight">alx</p>
+                        <p class="font-extrabold">web.</p>     
+                    </div>
+                    <div  class="h-full">
+                        <div class="flex items-center text-[12px] lg:text-[13px] xl:text-[14px] tracking-[2px] gap-6">
+                            <a href="#hero" class="nav-link hover:text-[#E95927]">Home</a>
+                            <a href="#sec2" class="nav-link hover:text-[#E95927]">About</a>
+                            <a href="#sec3" class="nav-link hover:text-[#E95927]">Skills</a>
+                            <a href="#sec4" class="nav-link hover:text-[#E95927]">Project</a>
+                            <a href="#sec5" class="nav-link hover:text-[#E95927]">Contact</a>  
+                        </div>
+                    </div>
+                    <div class="md:flex w-full justify-end text-[13px] lg:text-[14px] xl:text-[15px] gap-4 lg:gap-5">
+                        <a href="https://www.facebook.com/xandra.walidje"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/xandrawalidje_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto:walidjexandra@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOR MOBILE VIEW -->
+            <div class="md:hidden bg-transparent z-50 backdrop-blur-md shadow">
+                <div class="flex justify-between px-6 sm:px-12 py-3">    
+                    <div class="poppins w-full flex text-[20px] text-[#E95927] tracking-[1px]">
+                        <p class="font-extralight">alx</p>
+                        <p class="font-extrabold">web.</p>     
+                    </div>
+                    <!-- Mobile Toggle Button -->
+                    <div id="menu-toggle" class="relative w-full justify-end flex cursor-pointer pt-1">
+                        <label class="hamburger absolute block">
+                            <input type="checkbox" />
+                            <svg viewBox="0 0 32 32">
+                            <path
+                                class="line line-top-bottom hamburger-line"
+                                d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+                            ></path>
+                            <path class="line hamburger-line" d="M7 16 27 16"></path>
+                            </svg>
+                        </label>
+                    </div>
+                </div>
+                <div id="menu" class="hidden w-full"> 
+                    <div class="flex flex-col gap-4 text-center px-6 pt-4 pb-6 text-[12px] tracking-[2px] uppercase">
+                        <a href="#hero" class="nav-link">Home</a>
+                        <a href="#sec2" class="nav-link">About</a>
+                        <a href="#sec3" class="nav-link">Skills</a>
+                        <a href="#sec4" class="nav-link">Project</a>
+                        <a href="#sec5" class="nav-link">Contact</a>  
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="">
+            <section id="hero" class="inter h-[auto] bg-[url('/img/bg.')] bg-cover bg-center">
+                <div class="h-full flex flex-col justify-center pt-22 md:pt-28 gap-10">
+                    <div></div>
+                    <div class="h-full flex flex-col justify-center items-center text-center px-[14%] sm:px-[22%] md:px-[26%] lg:px-[29%] xl:px-[32%] gap-2 xl:gap-3">
+                        <p class="text-[15px] xl:text-md tracking-[1px]">Hi, I'm Alexandra Walidje</p>
+                        <h1 class="text-[30px]/10 lg:text-4xl/12 xl:text-5xl/15 font-black tracking-[3px]">Front-end Developer & <span class="text-[#E95927]">Web Designer</span></h1>
+                        <p class="text-[15px] xl:text-md md:px-[10px] xl:px-[16%]">I create visually stunning and user-friendly web experiences. Let’s bring your ideas to life!</p>
+                    </div>
+                    <div class="flex justify-between gap-10 xl:gap-16 px-8 sm:px-14 md:px-16 lg:px-32 xl:px-50">
+                        <div class="hidden lg:block w-full">
+                            <img src="/assets/img/hero-pic2.png" alt="">
+                        </div>
+                        <div class="w-full flex justify-center bg-red-20">
+                            <img src="/assets/img/pic-2.png" alt="" class="h-[60vh] lg:h-[65vh] xl:h-[75vh]">
+                        </div>
+                        <div class="hidden lg:block w-full">
+                            <img src="/assets/img/hero-pic3.png" alt="" class="-ml-8 xl:-ml-16 mt-12">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section id="sec2" class="w-full h-[auto] bg-[#ffffff]">
+                <div class="flex flex-col px-8 sm:px-12 md:px-16 lg:px-32 xl:px-50 py-14 lg:py-16 gap-8 lg:gap-12">
+                    <div class="flex flex-col sm:flex-row items-center tracking-[1px] gap-6">
+                        <div class="passion w-full">
+                            <h1 class="w-full text-[#EE9D81] text-[32px]/8 sm:text-[35px]/10 lg:text-[45px]/12 xl:text-[65px]/16 font- uppercase">Driven by Design, <span class="text-[#E95927]">Powered by Detail</span> and Code</h1>
+                        </div>
+                        <div class="inter w-full">
+                            <p class="w-full text-[13px] sm:text-[14px] lg:text-[15px] xl:text-lg text-[#D69999] ">I’m Alexandra Walidje, a Front-End Developer and Web Designer. I specialize in creating visually appealing, user-friendly websites and apps that are both functional and engaging.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="w-full h-full flex flex-col sm:flex-row items-center gap-10 lg:gap-8 xl:gap-14">
+
+                        <!-- EDUCATION -->
+                        <div class="w-[86%] h-[auto] flex bg-[url('/img/education-bg.png')] bg-cover bg-center rounded-2xl p-6 lg:p-8 xl:p-10">
+                            <div class="flex flex-col text-white tracking-[1px] rounded-3xl bg-[#EE906F] p-6 lg:p-7 xl:p-8 gap-6">
+                                <div>
+                                    <h1 class="passion text-[22px]/6 lg:text-[25px]/8 xl:text-3xl uppercase">Bachelor of Science in Information Technology</h1>
+                                    <p class="text-[13px] sm:text-[14px] lg:text-[15px] xl:text-md italic">College</p>
+                                </div>
+                                <div>
+                                    <h1 class="passion text-[22px]/6 lg:text-[25px]/8 xl:text-3xl uppercase">TVL Strand of Electronics Product Assembly and Servicing</h1>
+                                    <p class="text-[13px] sm:text-[14px] lg:text-[15px] xl:text-md italic">High School</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- WORK EXPERIENCE  -->
+                        <div class="w-full h-full flex tracking-[1px] gap-6 xl:gap-8">
+                            <div class="hidden lg:block">
+                                <img src="/assets/img/experience2.png" class="pt-2 lg:pt-0" alt="">
+                            </div>
+                            <div class="w-full flex flex-col justify-center gap-8">
+                                <div class="flex flex-col">
+                                    <h1 class="passion text-[22px]/6 lg:text-[25px]/8 xl:text-3xl text-[#E95927] uppercase">Front-End Developer & Web Designer</h1>
+                                    
+                                    <div class="flex flex-col text-[13px] sm:text-[14px] lg:text-[15px] xl:text-md gap-1">
+                                        <p class=" text-[#E95927] italic">Avasia Information Systems Inc.</p>
+                                        <p class="text-[#D69999]">Feb 2024 – Present</p>
+                                        <p class="text-gray-400">Design and develop responsive websites and web applications for clients.</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col">
+                                    <h1 class="passion text-[22px]/6 lg:text-[25px]/8 xl:text-3xl text-[#E95927] uppercase">Front-End Developer Intern</h1>
+
+                                    <div class="flex flex-col text-[13px] sm:text-[14px] lg:text-[15px] xl:text-md gap-1">
+                                        <p class="text-[#E95927] italic">Philippian Marketing Corporation</p>
+                                        <p class="text-[#D69999]">May 2023 – July 2023</p>
+                                        <p class="text-gray-400">Built the company website using Figma, Tailwind CSS, Alpine.js, and JavaScript.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+            <!-- Skills -->
+            <section id="sec3" class="h-full bg-[#07080A]">
+                <div class="flex flex-col gap-12 sm:gap-16 pt-12 lg:pt-20 pb-6">
+                    <div class="h-full flex justify-center items-center">
+                        <p class="text-white text-[18px] sm:text-[20px]/6 lg:text-[25px]/8 xl:text-3xl font-bold uppercase tracking-[2px]">Skills</p>
+                    </div>
+                    <div class="grid grid-cols-3 md:grid-cols-4 text-white gap-6 lg:gap-8 xl:gap-10 px-8 sm:px-12 md:px-16 lg:px-32 xl:px-50">
+                        <!-- Card 1 -->
+                        <div class="flex justify-center items-center bg-[#161719] shadow-md rounded-2xl p-4 py-10 sm:py-12 xl:py-14">
+                            <img src="/assets/img/icons/html1.png" alt="" class="w-8 lg:w-12 xl:w-14">
+                        </div>
+                      
+                        <!-- Card 2 -->
+                        <div class="flex justify-center items-center bg-[#161719] shadow-md rounded-2xl p-4 py-10 sm:py-12 xl:py-14">
+                            <img src="/assets/img/icons/css1.png" alt="" class="w-8 lg:w-12 xl:w-14">
+                        </div>
+                      
+                        <!-- Card 2 -->
+                        <div class="flex justify-center items-center bg-[#161719] shadow-md rounded-2xl p-4 py-10 sm:py-12 xl:py-14">
+                            <img src="/assets/img/icons/js1.png" alt="" class="w-8 lg:w-12 xl:w-14">
+                        </div>
+                      
+                        <!-- Card 2 -->
+                        <div class="flex justify-center items-center bg-[#161719] shadow-md rounded-2xl p-4 py-10 sm:py-12 xl:py-14">
+                            <img src="/assets/img/icons/tailwind.png" alt="" class="w-10 lg:w-14 xl:w-16">
+                        </div>
+                      
+                        <!-- Card 2 -->
+                        <div class="flex justify-center items-center bg-[#161719] shadow-md rounded-2xl p-4 py-10 sm:py-12 xl:py-14">
+                            <img src="/assets/img/icons/bootstrap.png" alt="" class="w-10 lg:w-14 xl:w-16">
+                        </div>
+                      
+                        <!-- Card 2 -->
+                        <div class="flex justify-center items-center bg-[#161719] shadow-md rounded-2xl p-4 py-10 sm:py-12 xl:py-14">
+                            <img src="/assets/img/icons/figma.png" alt="" class="w-8 lg:w-12 xl:w-14">
+                        </div>
+                      
+                        <!-- Card 2 -->
+                        <div class="flex justify-center items-center bg-[#161719] shadow-md rounded-2xl p-4 py-10 sm:py-12 xl:py-14">
+                            <img src="/assets/img/icons/photoshop.png" alt="" class="w-10 lg:w-14 xl:w-16">
+                        </div>
+                      
+                        <!-- Card 2 -->
+                        <div class="flex justify-center items-center bg-[#161719] shadow-md rounded-2xl p-4 py-10 sm:py-12 xl:py-14">
+                            <img src="/assets/img/icons/canva.png" alt="" class="w-10 lg:w-14 xl:w-16">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- INFINITE LOOP -->
+                <div class="infinite-loop w-[100%] text-[#E95927] bg-[#fff]" style="transform: rotate(-3deg);">
+                    <div class="flex items-center marquee-inner text-[22px] lg:text-[25px] xl:text-3xl font-extrabold uppercase tracking-[1px] whitespace-nowrap py-2 gap-10">
+                        <span class="marquee-item">Dashboard</span>
+                        <span class="marquee-item" style="-webkit-text-stroke: .8px #E95927; color: white;">Web Design</span>
+                        <span class="marquee-item">App Design</span>
+                        <span class="marquee-item" style="-webkit-text-stroke: .8px #E95927; color: white;">Landing page</span>
+                        <span class="marquee-item">Social Media</span>
+                        <span class="marquee-item" style="-webkit-text-stroke: .8px #E95927; color: white;">Brochure</span>
+                        <span class="marquee-item">Menu</span>
+                        <span class="marquee-item" style="-webkit-text-stroke: .8px #E95927; color: white;">Flyers</span>
+                    </div> 
+                </div>
+            </section>
+
+
+            <!-- Projects -->
+            <section id="sec4" class="h-[auto] flex flex-col text-white text-center tracking-[2px] pb-16 md:pb-18 pt-12 md:pt-16 gap-10 bg-[#07080A]">
+                <div class="">
+                    <h1 class="text-[18px] sm:text-[20px] lg:text-[25px]/8 xl:text-3xl font-bold uppercase">My Works</h1>
+                    <p class="text-xs md:text-sm text-[#9F9F9F]">Recent Ones</p>
+                </div>
+
+                <!-- Card -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:px-6 gap-2 md:gap-6">
+                    <img src="/assets/img/project/p3.png" alt="">
+                    <img src="/assets/img/project/p1.png" alt="">
+                    <img src="/assets/img/project/p2.png" alt="">
+                    <img src="/assets/img/project/p4.png" alt="">
+                    <img src="/assets/img/project/p5.png" alt="">
+                    <img src="/assets/img/project/p6.png" alt="">
+                </div>
+                <div class="text-xs md:text-[13px] lg:text-[14px] xl:text-md font-semibold uppercase pt-6 sm:pt-4 md:pt-6">
+                    <a href="/projects.html" class="px-14 py-4 border border-white hover:border-[#E95927] hover:bg-[#E95927] ">See More</a>
+                </div>
+            </section>
+
+            <section id="sec5" class="h-screen bg-[#ffffff] flex items-center justify-center">Contact</section>
+            <section class="flex items-center justify-center text-sm text-white tracking-[1px] py-3 bg-[#07080A]">© 2025 Alexandra Walidje. All rights reserved.</section>
+        </main>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Navbar Active / Change Text Color on Scroll -->
+    <script src="/assets/js/navbar-active.js"></script>
+
+    <!-- INFINITE LOOP -->
+    <script src="/assets/js/infinite.js"></script>
+        
+</body>
+</html>

@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Inter;
+    src: url(/assets/font/Inter.ttf);
+}
+
+@font-face {
+    font-family: Inter1;
+    src: url(/assets/font/Inter1.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/font/Roboto.ttf);
+}
+
+@font-face {
+    font-family: PassionOne;
+    src: url(/assets/font/PassionOne.ttf);
+}
+
+
+.roboto {
+    font-family: roboto;
+}
+
+.inter {
+    font-family: inter;
+}
+
+.inter1 {
+    font-family: inter1;
+}
+
+.passion {
+    font-family: passionOne;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+/* ACTIVE NAV */
+/* .nav-link-active-light {
+    color: #E95927;
+    font-weight: bold;
+}
+
+.nav-link-active-dark {
+    color: #000000;
+    font-weight: bold;
+} */
+
+/* TOGGLE */
+.hamburger {
+    cursor: pointer;
+}
+
+.hamburger input {
+    display: none;
+}
+
+.hamburger svg {
+    /* The size of the SVG defines the overall size */
+    height: 1.6em;
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+    fill: none;
+    stroke: black;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    /* Define the transition for transforming the Stroke */
+    transition:
+        stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+    stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked + svg {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.hamburger input:checked + svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+}
+
+/* INFINITE LOOP */
+
+.infinite-loop{
+    overflow: hidden !important;
+}
+
+.infinite-loop,
+#sec2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TOGGLE ACTIVE */
+.toggle-white path {
+  stroke: white;
+}
+.toggle-black path {
+  stroke: black;
+}
