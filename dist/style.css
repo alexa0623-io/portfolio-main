@@ -1,21 +1,21 @@
 @font-face {
     font-family: Inter;
-    src: url(/assets/font/Inter.ttf);
+    src: url(/font/Inter.ttf);
 }
 
 @font-face {
     font-family: Inter1;
-    src: url(/assets/font/Inter1.ttf);
+    src: url(/font/Inter1.ttf);
 }
 
 @font-face {
     font-family: Roboto;
-    src: url(/assets/font/Roboto.ttf);
+    src: url(/font/Roboto.ttf);
 }
 
 @font-face {
     font-family: PassionOne;
-    src: url(/assets/font/PassionOne.ttf);
+    src: url(/font/PassionOne.ttf);
 }
 
 
